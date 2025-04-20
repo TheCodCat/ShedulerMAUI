@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VisualStudio\\ShedulerMAUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|e:\\visualstudio\\shedulermaui\\shedulermaui\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|solutionrelative:shedulermaui\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|e:\\visualstudio\\shedulermaui\\shedulermaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|solutionrelative:shedulermaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|e:\\visualstudio\\shedulermaui\\shedulermaui\\services\\samgkapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|solutionrelative:shedulermaui\\services\\samgkapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SamgkApiService.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\ShedulerMAUI\\ShedulerMAUI\\Services\\SamgkApiService.cs",
+              "RelativeDocumentMoniker": "ShedulerMAUI\\Services\\SamgkApiService.cs",
+              "ToolTip": "E:\\VisualStudio\\ShedulerMAUI\\ShedulerMAUI\\Services\\SamgkApiService.cs",
+              "RelativeToolTip": "ShedulerMAUI\\Services\\SamgkApiService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:42:26.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\ShedulerMAUI\\ShedulerMAUI\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ShedulerMAUI\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "E:\\VisualStudio\\ShedulerMAUI\\ShedulerMAUI\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "ShedulerMAUI\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:22:34.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\VisualStudio\\ShedulerMAUI\\ShedulerMAUI\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ShedulerMAUI\\MainPage.xaml",
+              "ToolTip": "E:\\VisualStudio\\ShedulerMAUI\\ShedulerMAUI\\MainPage.xaml",
+              "RelativeToolTip": "ShedulerMAUI\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-20T19:22:25.325Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

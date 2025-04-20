@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             xmlns:vm="clr-namespace:ShedulerMAUI.ViewModel"
+             x:DataType="vm:MainViewModel"
+             x:Class="ShedulerMAUI.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <VerticalStackLayout Grid.Row="0">
+            <Label Text="Расписание" HorizontalOptions="Center" FontSize="24" FontAttributes="Bold"/>
+        </VerticalStackLayout>
+
+        <Grid Grid.Row="1" ColumnSpacing="10" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <material:AutoCompleteTextField Title="Группа" Grid.Column="0" ItemsSource="{Binding Groups}" Text="{Binding NumGroup}">
+            </material:AutoCompleteTextField>
+
+            <material:DatePickerField Grid.Column="1" Title="Дата" AllowClear="True" MinimumDate="12/12/2020" MaximumDate="12/12/2040" Date="{Binding Data}"/>
+
+            <Button StyleClass="FilledButton" Text="Получить" Grid.Column="2" TextColor="White" FontSize="14" Command="{Binding SheduleDataGroupCommand}"/>
+        </Grid>
+    </Grid>
+
+
+</ContentPage>
