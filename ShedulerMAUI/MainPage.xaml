@@ -31,7 +31,6 @@
 
             <Button StyleClass="FilledButton" Text="Получить" Grid.Column="2" TextColor="White" FontSize="14" Command="{Binding SheduleDataGroupCommand}"/>
         </Grid>
-
         <CollectionView ItemsSource="{Binding ScheduleFromDates}" Grid.Row="2">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
@@ -46,9 +45,14 @@
                             </Grid.ColumnDefinitions>
 
                             <Label Text="{Binding NumPair}" Grid.Column="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold"/>
-                            <VerticalStackLayout Grid.Column="1">
+                            <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center">
                                 <Label Text="{Binding Durations[0].StartTime}"/>
                                 <Label Text="{Binding Durations[0].EndTime}"/>
+                            </VerticalStackLayout>
+
+                            <VerticalStackLayout Grid.Column="2">
+                                <Label Text="{Binding SubjectDetails.FullSubjectName}"/>
+                                <Label Text="{Binding Identity[0].ShortName}"/>
                             </VerticalStackLayout>
                         </Grid>
                     </VerticalStackLayout>
