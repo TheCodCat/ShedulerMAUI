@@ -14,6 +14,7 @@
 
         <VerticalStackLayout Grid.Row="0">
             <Label Text="Расписание" HorizontalOptions="Center" FontSize="24" FontAttributes="Bold"/>
+            <BoxView StyleClass="Divider"/>
         </VerticalStackLayout>
 
         <Grid Grid.Row="1" ColumnSpacing="10" Margin="10">
@@ -34,22 +35,23 @@
         <CollectionView ItemsSource="{Binding ScheduleFromDates}" Grid.Row="2">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Border>
+                    <VerticalStackLayout StyleClass="Divider" Padding="5">
+                        <BoxView StyleClass="Divider"/>
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="1*"/>
                                 <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="3*"/>
                                 <ColumnDefinition Width="1*"/>
                             </Grid.ColumnDefinitions>
 
-                            <Label Text="{Binding NumPair}" Grid.Column="0"/>
+                            <Label Text="{Binding NumPair}" Grid.Column="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold"/>
                             <VerticalStackLayout Grid.Column="1">
                                 <Label Text="{Binding Durations[0].StartTime}"/>
                                 <Label Text="{Binding Durations[0].EndTime}"/>
                             </VerticalStackLayout>
                         </Grid>
-                    </Border>
+                    </VerticalStackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
