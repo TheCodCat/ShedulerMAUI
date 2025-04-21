@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\VisualStudio\\ShedulerMAUI\\",
+  "WorkspaceRootPath": "C:\\Users\\Public\\ShedulerMAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|e:\\visualstudio\\shedulermaui\\shedulermaui\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|solutionrelative:shedulermaui\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|c:\\users\\public\\shedulermaui\\shedulermaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|solutionrelative:shedulermaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|e:\\visualstudio\\shedulermaui\\shedulermaui\\dto\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|solutionrelative:shedulermaui\\dto\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|c:\\users\\public\\shedulermaui\\shedulermaui\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE7C519-0D08-4511-8B47-4921B70D12BE}|ShedulerMAUI\\ShedulerMAUI.csproj|solutionrelative:shedulermaui\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,29 +21,33 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Lesson.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\ShedulerMAUI\\ShedulerMAUI\\Dto\\Lesson.cs",
-              "RelativeDocumentMoniker": "ShedulerMAUI\\Dto\\Lesson.cs",
-              "ToolTip": "E:\\VisualStudio\\ShedulerMAUI\\ShedulerMAUI\\Dto\\Lesson.cs",
-              "RelativeToolTip": "ShedulerMAUI\\Dto\\Lesson.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T04:37:28.051Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Public\\ShedulerMAUI\\ShedulerMAUI\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ShedulerMAUI\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Public\\ShedulerMAUI\\ShedulerMAUI\\MainPage.xaml*",
+              "RelativeToolTip": "ShedulerMAUI\\MainPage.xaml*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T11:07:12.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\ShedulerMAUI\\ShedulerMAUI\\ViewModel\\MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Public\\ShedulerMAUI\\ShedulerMAUI\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ShedulerMAUI\\ViewModel\\MainViewModel.cs",
-              "ToolTip": "E:\\VisualStudio\\ShedulerMAUI\\ShedulerMAUI\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Public\\ShedulerMAUI\\ShedulerMAUI\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "ShedulerMAUI\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwDIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA7wC8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T19:22:34.081Z",
+              "WhenOpened": "2025-04-21T10:25:53.963Z",
               "EditorCaption": ""
             }
           ]

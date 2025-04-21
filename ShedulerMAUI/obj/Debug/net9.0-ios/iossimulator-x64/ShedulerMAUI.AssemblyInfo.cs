@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShedulerMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b7d2d08a13fc0ee3a9529e06c8340edfa5d01f6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3bf86e2b6349d19f6743edb24d40ba4b183ae7f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShedulerMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShedulerMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS18.2")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS18.4")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS15.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

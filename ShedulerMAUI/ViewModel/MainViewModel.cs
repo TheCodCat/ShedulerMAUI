@@ -5,6 +5,7 @@ using CommunityToolkit.Mvvm.Input;
 using ClientSamgk.Models;
 using ShedulerMAUI.Dto;
 using ClientSamgk.Models.Api.Interfaces.Schedule;
+using System.Collections.ObjectModel;
 
 namespace ShedulerMAUI.ViewModel
 {
@@ -24,7 +25,7 @@ namespace ShedulerMAUI.ViewModel
         private IList<IResultOutGroup> resultOutGroups = new List<IResultOutGroup>();
 
         [ObservableProperty]
-        private List<Lesson> scheduleFromDates = new List<Lesson>();
+        private ObservableCollection<IResultOutLesson> scheduleFromDates = new ObservableCollection<IResultOutLesson>();
 
         public MainViewModel(SamgkApiService samgkApiService)
         {
@@ -33,6 +34,7 @@ namespace ShedulerMAUI.ViewModel
         }
         private async void Init()
         {
+            Data = DateTime.Now;
             resultOutGroups = await samgkApiService.GetGroups();
 
             foreach (var item in resultOutGroups)
@@ -48,11 +50,16 @@ namespace ShedulerMAUI.ViewModel
             var query = new ScheduleQuery().WithDate(DateOnly.FromDateTime(Data)).WithGroup(group);
 
             var result = await samgkApiService.GetSchedule(query);
-            ScheduleFromDates = result.ToList()[0].Lessons.Select(x => new Lesson() {
-                NumLesson = x.NumLesson,
-                Durations = x.Durations,
-                NumPair = x.NumPair
-            }).ToList();
+            ScheduleFromDates.Clear();
+            foreach (var item in result.ToList()[0].Lessons)
+            {
+                ScheduleFromDates.Add(item);
+            }
+
+            //ScheduleFromDates = result.ToList()[0].Lessons.Select(x => new Lesson() {
+            //    NumLesson = x.NumLesson,
+            //    NumPair = x.NumPair
+            //}).ToList();
         }
     }
 }

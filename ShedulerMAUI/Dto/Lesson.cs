@@ -9,12 +9,12 @@ namespace ShedulerMAUI.Dto
 {
     public class Lesson : IResultOutLesson
     {
-        public IList<IResultOutIdentity> Identity { get; set; }
-        public IResultOutGroup? EducationGroup { get; set; }
-        public IResultOutSubjectItem SubjectDetails { get; set; }
-        public IList<IResultOutCab> Cabs { get; set; }
-        public long NumPair { get; set; }
-        public long NumLesson { get; set; }
-        public IList<DurationLessonDetails> Durations { get; set; }
+        public IList<IResultOutIdentity> Identity { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public IResultOutGroup? EducationGroup { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public IResultOutSubjectItem SubjectDetails { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public IList<IResultOutCab> Cabs { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public long NumPair { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public long NumLesson { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public IList<DurationLessonDetails> Durations { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
