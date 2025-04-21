@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShedulerMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3bf86e2b6349d19f6743edb24d40ba4b183ae7f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d707613a862b0be8ab44c55da3f04885437fb2f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShedulerMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShedulerMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
