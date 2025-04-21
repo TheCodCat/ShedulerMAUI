@@ -308,3 +308,4 @@ E:\VisualStudio\ShedulerMAUI\ShedulerMAUI\obj\Debug\net9.0-maccatalyst\maccataly
 E:\VisualStudio\ShedulerMAUI\ShedulerMAUI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ShedulerMAUI.pdb
 E:\VisualStudio\ShedulerMAUI\ShedulerMAUI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ShedulerMAUI.genruntimeconfig.cache
 E:\VisualStudio\ShedulerMAUI\ShedulerMAUI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\ShedulerMAUI.dll
+E:\VisualStudio\ShedulerMAUI\ShedulerMAUI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ShedulerMAUI.sourcelink.json

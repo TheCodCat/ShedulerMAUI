@@ -482,3 +482,4 @@ E:\VisualStudio\ShedulerMAUI\ShedulerMAUI\bin\Debug\net9.0-windows10.0.19041.0\w
 E:\VisualStudio\ShedulerMAUI\ShedulerMAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\RestSharp.Serializers.NewtonsoftJson.dll
 E:\VisualStudio\ShedulerMAUI\ShedulerMAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\UraniumUI.dll
 E:\VisualStudio\ShedulerMAUI\ShedulerMAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\UraniumUI.Material.dll
+E:\VisualStudio\ShedulerMAUI\ShedulerMAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ShedulerMAUI.sourcelink.json
