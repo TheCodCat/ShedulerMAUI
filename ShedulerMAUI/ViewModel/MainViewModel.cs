@@ -3,7 +3,6 @@ using ShedulerMAUI.Services;
 using ClientSamgk.Models.Api.Interfaces.Groups;
 using CommunityToolkit.Mvvm.Input;
 using ClientSamgk.Models;
-using ShedulerMAUI.Dto;
 using ClientSamgk.Models.Api.Interfaces.Schedule;
 using System.Collections.ObjectModel;
 
@@ -51,10 +50,7 @@ namespace ShedulerMAUI.ViewModel
 
             var result = await samgkApiService.GetSchedule(query);
             ScheduleFromDates.Clear();
-            foreach (var item in result.ToList()[0].Lessons)
-            {
-                ScheduleFromDates.Add(item);
-            }
+            ScheduleFromDates = new ObservableCollection<IResultOutLesson>(result[0].Lessons);
 
             //ScheduleFromDates = result.ToList()[0].Lessons.Select(x => new Lesson() {
             //    NumLesson = x.NumLesson,
